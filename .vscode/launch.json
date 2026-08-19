@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Open SealSure AI in Edge",
+      "type": "pwa-msedge",
+      "request": "launch",
+      "url": "http://127.0.0.1:3000",
+      "webRoot": "${workspaceFolder}",
+      "preLaunchTask": "SealSure AI: dev server"
+    }
+  ]
+}

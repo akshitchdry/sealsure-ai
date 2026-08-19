@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #101820;
+  background: #f4f7f4;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.scan-grid {
+  background-image:
+    linear-gradient(rgba(47, 111, 94, 0.11) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(47, 111, 94, 0.11) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.security-label {
+  background:
+    radial-gradient(circle at 20% 20%, rgba(131, 212, 183, 0.5), transparent 22%),
+    radial-gradient(circle at 80% 30%, rgba(243, 111, 90, 0.28), transparent 26%),
+    linear-gradient(135deg, #ffffff 0%, #eaf4ee 48%, #f9d984 100%);
+}
+
+.label-thread {
+  background-image:
+    linear-gradient(135deg, rgba(16, 24, 32, 0.9) 25%, transparent 25%),
+    linear-gradient(225deg, rgba(16, 24, 32, 0.9) 25%, transparent 25%),
+    linear-gradient(45deg, rgba(16, 24, 32, 0.9) 25%, transparent 25%),
+    linear-gradient(315deg, rgba(16, 24, 32, 0.9) 25%, #ffffff 25%);
+  background-position:
+    10px 0,
+    10px 0,
+    0 0,
+    0 0;
+  background-size: 20px 20px;
+  background-repeat: repeat;
+}
+
+[data-theme="black"] {
+  background: #05070a;
+  color: #f7fafc;
+}
+
+[data-theme="black"] nav {
+  background: rgba(5, 7, 10, 0.9) !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+[data-theme="black"] section {
+  background-color: #05070a !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
+}
+
+[data-theme="black"] section:nth-of-type(even) {
+  background-color: #0b1116 !important;
+}
+
+[data-theme="black"] article,
+[data-theme="black"] .bg-white,
+[data-theme="black"] .bg-mist {
+  background-color: #101820 !important;
+}
+
+[data-theme="black"] .text-ink {
+  color: #f7fafc !important;
+}
+
+[data-theme="black"] [class*="text-ink/"] {
+  color: rgba(247, 250, 252, 0.68) !important;
+}
+
+[data-theme="black"] [class*="border-ink/"] {
+  border-color: rgba(255, 255, 255, 0.14) !important;
+}
+
+[data-theme="black"] input {
+  background: #05070a !important;
+  color: #f7fafc !important;
+}
+
+[data-theme="black"] .scan-grid {
+  background-color: rgba(255, 255, 255, 0.04) !important;
+  background-image:
+    linear-gradient(rgba(131, 212, 183, 0.15) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(131, 212, 183, 0.15) 1px, transparent 1px);
+}
+
+[data-theme="black"] .security-label {
+  background:
+    radial-gradient(circle at 20% 20%, rgba(131, 212, 183, 0.44), transparent 22%),
+    radial-gradient(circle at 80% 30%, rgba(243, 111, 90, 0.38), transparent 26%),
+    linear-gradient(135deg, #eaf4ee 0%, #cfe3d7 48%, #f9d984 100%);
+}

@@ -1,0 +1,29 @@
+
+> sealsure-ai@0.1.0 dev
+> next dev --hostname 127.0.0.1 --port 3000
+
+   ▲ Next.js 15.5.19
+   - Local:        http://127.0.0.1:3000
+   - Network:      http://127.0.0.1:3000
+
+ ✓ Starting...
+ ✓ Ready in 1972ms
+ ○ Compiling / ...
+ ✓ Compiled / in 3.9s (563 modules)
+ GET / 200 in 4641ms
+ GET / 200 in 186ms
+ ✓ Compiled in 449ms (563 modules)
+ GET / 200 in 286ms
+ GET / 200 in 155ms
+ ✓ Compiled in 433ms (563 modules)
+ GET / 200 in 183ms
+ GET / 200 in 52ms
+ GET / 200 in 43ms
+ ✓ Compiled in 376ms (227 modules)
+ ✓ Compiled in 123ms (227 modules)
+ ✓ Compiled in 125ms (227 modules)
+ ✓ Compiled in 225ms (227 modules)
+ ○ Compiling / ...
+ ✓ Compiled / in 548ms (588 modules)
+ GET / 200 in 870ms
+ ✓ Compiled in 316ms (602 modules)
